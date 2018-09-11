@@ -1,0 +1,9 @@
+Quiz 1-2
+1. 當精確度不足以代表整體模型好壞時，F1-score會是比較恰當的選擇
+2. 因為不能微分
+3. Bias：真實值與預測值之間的差異。
+   Variance：衡量每一次構建模型預測相同數據的變化性。
+   High bias表示模型under-fitting,可以增加參數或更多的訓練, high variance表示模型overfitting,可以使用Regularization或增加資料量
+4. 為了儘可能窮舉訓練的分類樣本，所以我們讓樹一直生長
+5. 例如我們有資料，地區：["TW"，"US"，"JP"], 用one-hot編碼就是 TW:[1,0,0], US:[0,1,0], JP:[0,0,1]
+6. 用Regularization, dropout, 或是train model時用early stop
